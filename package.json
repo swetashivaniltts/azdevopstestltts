@@ -2,12 +2,12 @@
   "name": "first",
   "version": "1.0.0",
   "description": "RESTful APIs using expressjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "20092646",
+  "author": "20093014",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
