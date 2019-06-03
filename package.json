@@ -1,19 +1,15 @@
 {
-  "name": "nodejs-webapp-tests",
-  "version": "0.0.0",
-  "description": "nodejs-webapp-tests",
-  "author": {
-    "name": "shrer"
-  },
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "mocha": "^5.2.0",
-    "mocha-junit-reporter": "^1.18.0",
-    "mock-fs": "^4.6.0",
-    "selenium-webdriver": "^4.0.0-alpha.1",
-    "natives": "^1.1.6"
-  },
+  "name": "first",
+  "version": "1.0.0",
+  "description": "RESTful APIs using expressjs",
+  "main": "index.js",
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --reporter mocha-junit-reporter --reporter-options mochaFile=../TestResults/TEST-RESULT.xml"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "20092646",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
