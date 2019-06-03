@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var PORT = 7980;
+var PORT = process.env.port || 7980;
 
 var fruits = [{
     name: "Mango",
