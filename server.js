@@ -3,14 +3,14 @@ var app = express();
 var PORT = process.env.port || 7980;
 
 var fruits = [{
-    name: "Mango",
-    color: "Yellow"
+    name: "Grape",
+    color: "Green"
 }, {
     name: "Orange",
     color: "Orange"
 }, {
     name: "Watermelon",
-    color: "Green"
+    color: "Green-Red"
 }];
 
 app.get('/color', function (req, res) {
